@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<style>
+    .btn-equal {
+        min-width: 150px;
+
+    }
+
+
+
+    @media (max-width: 576px) {
+        .icon-img {
+            width: 100px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex text-white align-items-end justify-content-end">
+                <img src="./2-5.png" alt="">
+                <h5>envato <small>Market</small></h5>
+            </div>
+            <button class="btn btn-light text-dark" type="button">Search</button>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top white" style="top: 60px;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <ul class="nav nav-pills">
+                <div class="d-flex align-items-center gap-2">
+                    <img src="./2-5.png" alt="Logo" style="height:40px;">
+                    <h4 class="m-0 text-dark">Superio</h4>
+                </div>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Home</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Home-page </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Find Jobs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./Job.html">Job-list </a></li>
+                        <li><a class="dropdown-item" href="./single-job.html">Single-job </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Employers</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./empoly-list.html">Employers-list </a></li>
+                        <li><a class="dropdown-item" href="./single-empoly.html">Single-Employers </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Candidates</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./condanit-list.html">Candidates-list </a></li>
+                        <li><a class="dropdown-item" href="./single-condanit.html">Single-Candidates </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./bolg.html">Blog-list </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+                        <li><a class="dropdown-item" href="./single-shop.html">Single-shop </a></li>
+                        <li><a class="dropdown-item" href="./about.html">About </a></li>
+                        <li><a class="dropdown-item" href="./FQ.html">FAQs</a></li>
+                        <li><a class="dropdown-item" href="./pricing.html"> pricing</a></li>
+                        <li><a class="dropdown-item" href="./contect.html">Contect </a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <button type="button" class="btn btn-outline-primary btn-equal text-dark">Job Post</button>
+
+            <button class="btn btn-info btn-equal text-light">Login/Register</button>
+        </div>
+    </nav>
+    <section class="mt-5 py-5 counts" style="background-color: rgba(211, 209, 209, 0.637);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+
+
+                <div class="col-lg-8 mb-3 mb-lg-0">
+                    <div class=" p-4 d-flex align-items-center  rounded-3"
+                        style="min-height: 150px; margin-top: 100px;">
+
+                        <img src="./candidate-3.png" alt="" class="rounded-circle me-3"
+                            style="width: 80px; height: 80px; object-fit: cover;">
+
+                        <div>
+                            <span class="fw-bold d-block fs-5 mb-2">Darlene Robertson</span>
+
+                            <i class="bi bi-calendar4-event fs-5 text-primary"></i>
+                            <span>Catalyst</span>
+
+                            <i class="bi bi-geo-alt fs-5 ms-2"></i>
+                            <span>London,UK</span>
+
+                            <i class="bi bi-clock fs-5 ms-2"></i>
+                            <span>11 hours ago</span>
+
+                            <i class="bi bi-cash fs-5 ms-2"></i>
+                            <span>$35k-$45k</span>
+                            <i class="bi bi-clock fs-5 ms-2"></i>
+                            <span> Member Since,Aug 19, 2020</span>
+
+                            <br>
+
+                            <span class="badge bg-primary mt-2">App</span>
+                            <span class="badge bg-primary mt-2">
+                                Design</span>
+                            <span class="badge bg-primary mt-2">Digital</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center"
+                    style="margin-top: 100px;">
+                    <button class="btn btn-info py-3 px-5">Download CV</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 mt-5 mb-4">
+                <div>
+                    <h5 class="mt-5 mb-5">Candidates About</h5>
+                    <img src="./video-img.jpg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-lg-11">
+                        Hello my name is Nicole Wells and web developer from Portland. In pharetra orci dignissim,
+                        blandit mi semper, ultricies diam. Suspendisse malesuada suscipit nunc non volutpat. Sed porta
+                        nulla id orci laoreet tempor non consequat enim. Sed vitae aliquam velit. Aliquam ante erat,
+                        blandit at pretium et, accumsan ac est. Integer vehicula rhoncus molestie. Morbi ornare ipsum
+                        sed sem condimentum, et pulvinar tortor luctus. Suspendisse condimentum lorem ut elementum
+                        aliquam.
+
+                        <div class="mb-4 mt-4">
+                            Mauris nec erat ut libero vulputate pulvinar. Aliquam ante erat, blandit at pretium et,
+                            accumsan
+                            ac est. Integer vehicula rhoncus molestie. Morbi ornare ipsum sed sem condimentum, et
+                            pulvinar
+                            tortor luctus. Suspendisse condimentum lorem ut elementum aliquam. Mauris nec erat ut libero
+                            vulputate pulvinar.
+                        </div>
+                        <div class="col-lg-12 col-sm-4">
+                            <div class="d-flex flex-wrap">
+                                <img src="./employers-single-1.webp" alt="" class="img-fluid me-2 mb-2 icon-img">
+                                <img src="./employers-single-2.webp" alt="" class="img-fluid me-2 mb-2 icon-img">
+                                <img src="./employers-single-3.webp" alt="" class="img-fluid me-2 mb-2 icon-img">
+                                <img src="./employers-single-4.webp" alt="" class="img-fluid me-2 mb-2 icon-img">
+                            </div>
+                        </div>
+                        <div class="mt-5">
+
+
+                            <h5 class="mb-3">Work & Experience</h5>
+
+
+                            <div class="d-flex justify-content-start align-items-center">
+
+
+                                <h6 class="m-0">Bachelors in Fine Arts</h6>
+
+
+                                <span class="badge bg-primary ms-5">2012 - 2014</span>
+
+                            </div>
+                            <span class="text-danger">
+                                Modern College
+                            </span>
+                            <div class="mt-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                            </div>
+
+                        </div>
+                        <div class="mt-5">
+
+
+
+
+
+                            <div class="d-flex justify-content-start align-items-center">
+
+
+                                <h6 class="m-0">Computer Science</h6>
+
+
+                                <span class="badge bg-primary ms-5">2008 - 2012</span>
+
+                            </div>
+                            <span class="text-danger">Harvard University</span>
+                            <div class="mt-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                            </div>
+
+                        </div>
+                        <div class="mt-5">
+
+
+                            <h5 class="mb-3">Awards</h5>
+
+
+                            <div class="d-flex justify-content-start align-items-center">
+
+
+                                <h6 class="m-0">Perfect Attendance Programs</h6>
+
+
+                                <span class="badge bg-warning ms-5">2012 - 2014</span>
+
+                            </div>
+                            <span class="text-warning">
+                                Software Algorithm
+                            </span>
+                            <div class="mt-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                            </div>
+
+                        </div>
+                        <div class="mt-5">
+
+
+
+
+
+                            <div class="d-flex justify-content-start align-items-center">
+
+
+                                <h6 class="m-0">Top Performer Recognition</h6>
+
+
+                                <span class="badge bg-warning ms-5">2008 - 2012</span>
+
+                            </div>
+                            <span class="text-warning">Web Application</span>
+                            <div class="mt-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="p-4 shadow-sm rounded-3 text-start w-100"
+                    style=" background-color: rgba(153, 145, 145, 0.432);">
+                    <div>
+
+                        <h3>Job Overview</h3>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-calendar-event fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Date Posted:</span>
+                                <br>
+                                <small class="text-muted">Posted 1 hour ago</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-calendar-x fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Expiration Date:</span>
+                                <br>
+                                <small class="text-muted">April 06, 2021</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-geo-alt fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Location:</span>
+                                <br>
+                                <small class="text-muted">London, UK</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-person-badge fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Job Title:</span>
+                                <br>
+                                <small class="text-muted">Designer</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-clock fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Hours:</span>
+                                <br>
+                                <small class="text-muted">50h / week</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-currency-dollar fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Rate:</span>
+                                <br>
+                                <small class="text-muted">$15 - $25 / hour</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="bi bi-cash fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Salary:</span>
+                                <br>
+                                <small class="text-muted">$35k - $45k</small>
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-gear fs-3 me-2 text-primary"></i>
+                            <div>
+                                <span class="fw-bold">Job Skills:</span>
+                                <br>
+                                <small class="text-muted">UI/UX, Figma, Adobe XD</small>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class=" shadow mt-5 py-5 d-flex col-lg-12 align-items-center justify-content-center"
+                    style=" background-color: rgba(153, 145, 145, 0.432);">
+
+                    <div>
+                        <h5>Social media</h5>
+                    </div>
+                    <div class="ms-3">
+                        <i class="bi bi-envelope me-2"></i>
+                        <i class="bi bi-instagram me-2"></i>
+                        <i class="bi bi-facebook me-2"></i>
+                    </div>
+                </div>
+
+                <div class=" shadow mt-5" style=" background-color: rgba(153, 145, 145, 0.432);">
+                    <h5 class="ms-3 pt-4">Professional Skills</h5>
+                    <div class="col-lg-12 mt-3 ms-3 ">
+                        <button class="btn btn-outline-primary"> app</button>
+                        <button class="btn btn-outline-primary"> administrative</button>
+                        <button class="btn btn-outline-primary"> Android</button>
+                    </div>
+                    <div class="col-lg-12 mt-3 ms-3 pb-5">
+                        <button class="btn btn-outline-primary"> wordpress</button>
+                        <button class="btn btn-outline-primary"> design</button>
+                        <button class="btn btn-outline-primary"> react</button>
+                    </div>
+                </div>
+
+                <div class=" shadow mt-5 py-5 col-lg-12 px-5 align-items-center justify-content-center"
+                    style=" background-color: rgba(153, 145, 145, 0.432);">
+                    <div class="ms-3">
+                        <h3>contect-us</h3>
+                    </div>
+                    <div class="mb-3 ms-3">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+
+
+                    <div class="mb-3  ms-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+
+
+                    <div class="mb-3  ms-3">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary w-100  ms-3">Send</button>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="text-white pt-5 pb-5  ">
+        <div class="mt-5" style="width: 100%; border-top: 1px solid rgb(61, 61, 61 ,0.3) ; margin-top: 40px;">
+            <div class="container mt-5">
+                <div class="row gy-5">
+
+
+                    <div class="col-md-3">
+                        <div class="d-flex mb-4">
+                            <div class="me-3"><img src="./2-5.png" alt=""></div>
+                            <div>
+                                <h4 class="fw-bold mb-3 fs-3 text-dark">Superio</h4>
+                            </div>
+                        </div>
+
+                        <p class="mb-1 fw-bold fs-6 text-dark">Call us</p>
+                        <p class="mb-3 fs-6 text-primary">123 456 7890</p>
+
+                        <p class="mb-1 fs-6 text-muted">329 Queensberry Street, North Melbourne VIC 3051, Australia.</p>
+                        <p class="mb-1 fs-6 text-muted">support@superio.com</p>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">For Candidates</h5>
+                        <ul class="list-unstyled fs-6">
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Jobs</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Categories</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Candidate Dashboard</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Job Alerts</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">My Bookmarks</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">For Employers</h5>
+                        <ul class="list-unstyled fs-6">
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Candidates</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Employer Dashboard</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Add Job</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Job Packages</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">Join Us On</h5>
+                        <p class="text-muted fs-6">We don't send spam so don't worry.</p>
+
+                        <div class="input-group">
+                            <button class="btn btn-primary">
+                                <i class="bi bi-envelope fs-4"></i>
+                            </button>
+                            <input type="email" class="form-control fs-6" placeholder="Email">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div style="width: 100%; border-top: 1px solid rgb(61, 61, 61 ,0.3) ; margin-top: 40px;"></div>
+
+
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mt-4 pt-2 fs-6 text-muted">
+                <div>© 2023 Superio by ib-themes. All Right Reserved.</div>
+                <div>
+                    <i class="bi bi-envelope me-2"></i>
+                    <i class="bi bi-instagram me-2"></i>
+                    <i class="bi bi-facebook me-2"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</body>
+
+</html>

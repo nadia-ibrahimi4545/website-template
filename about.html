@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<style>
+    .picture {
+        background-image: url(./1.jpg);
+    }
+
+    .testimonial-section {
+        text-align: center;
+        padding: 100px 0;
+        background: #fff;
+    }
+
+    .title {
+        font-weight: 700;
+    }
+
+    .subtitle {
+        color: #777;
+        margin-bottom: 60px;
+    }
+
+    .testimonial-layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .side-avatars {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .side-avatars img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+
+    .testimonial-box {
+        background: #f5f7ff;
+        padding: 60px 50px;
+        border-radius: 60px;
+        width: 420px;
+        position: relative;
+    }
+
+    .quote {
+        font-size: 50px;
+        color: #6c63ff;
+    }
+
+    .center-avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: 15px 0;
+    }
+
+    .dots {
+        margin-top: 20px;
+    }
+
+    .dots span {
+        width: 6px;
+        height: 6px;
+        background: #ccc;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 0 4px;
+    }
+
+    .dots .active {
+        background: #6c63ff;
+    }
+
+    .btn-equal {
+        min-width: 150px;
+
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex text-white align-items-end justify-content-end">
+                <img src="./2-5.png" alt="">
+                <h5>envato <small>Market</small></h5>
+            </div>
+            <button class="btn btn-light text-dark" type="button">Search</button>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top white" style="top: 60px;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <ul class="nav nav-pills">
+                <div class="d-flex align-items-center gap-2">
+                    <img src="./2-5.png" alt="Logo" style="height:40px;">
+                    <h4 class="m-0 text-dark">Superio</h4>
+                </div>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Home</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Home-page </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Find Jobs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./Job.html">Job-list </a></li>
+                        <li><a class="dropdown-item" href="./single-job.html">Single-job </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Employers</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./empoly-list.html">Employers-list </a></li>
+                        <li><a class="dropdown-item" href="./single-empoly.html">Single-Employers </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Candidates</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./condanit-list.html">Candidates-list </a></li>
+                        <li><a class="dropdown-item" href="./single-condanit.html">Single-Candidates </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./bolg.html">Blog-list </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+                        <li><a class="dropdown-item" href="./single-shop.html">Single-shop </a></li>
+                        <li><a class="dropdown-item" href="./about.html">About </a></li>
+                        <li><a class="dropdown-item" href="./FQ.html">FAQs</a></li>
+                        <li><a class="dropdown-item" href="./pricing.html"> pricing</a></li>
+                        <li><a class="dropdown-item" href="./contect.html">Contect </a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <button type="button" class="btn btn-outline-primary btn-equal text-dark">Job Post</button>
+
+            <button class="btn btn-info btn-equal text-light">Login/Register</button>
+        </div>
+    </nav>
+    <div class="col-lg-12 ">
+        <div class="row  text-center py-5" style="margin-top: 110px; background-color: rgba(121, 187, 245, 0.507);">
+            <h3 class="mt-5">About Us</h3>
+            <p class="text-muted">
+                Home/About Us</p>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="row g-3 rounded">
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="./about-img-1.webp" class="img-fluid w-100 rounded" alt="">
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 d-flex flex-column gap-3">
+                        <img src="./about-img-2.webp" class="img-fluid w-100 rounded" alt="">
+                        <img src="./about-img-3.webp" class="img-fluid w-100 rounded" alt="">
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 d-flex flex-column gap-3">
+                        <img src="./about-img-5.webp" class="img-fluid w-100 rounded" alt="">
+                        <img src="./about-img-4 (1).webp" class="img-fluid w-100 rounded" alt="">
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="./about-img-6.webp" class="img-fluid w-100 rounded" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col-lg-12">
+            <div class=" row  align-items-center justify-content-center text-center">
+                <div class=" col-lg-2">
+                    <h1 class=" fw-bold" style="font-weight: bolder;">4M</h1>
+                    <h6 class=" text-muted"> 4 million daily active users</h6>
+                </div>
+                <div class=" col-lg-2">
+                    <h1 class=" fw-bold" style="font-weight: bolder;">12k</h1>
+                    <h6 class=" text-muted"> Over 12k open job positions</h6>
+                </div>
+                <div class=" col-lg-2">
+                    <h1 class=" fw-bold" style="font-weight: bolder;">20M</h1>
+                    <h6 class=" text-muted"> Over 20 million stories shared</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-center mb-5 ">
+        <div class="col-lg-8 mt-5 ">
+            <h5> About Superio</h5>
+            <div>
+                Far much that one rank beheld bluebird after outside ignobly allegedly more when oh arrogantly vehement
+                irresistibly fussy penguin insect additionally wow absolutely crud meretriciously hastily dalmatian a
+                glowered inset one echidna cassowary some parrot and much as goodness some froze the sullen much
+                connected
+                bat wonderfully on instantaneously eel valiantly petted this along across highhandedly much.
+
+            </div>
+            <div class="mt-4">
+                Repeatedly dreamed alas opossum but dramatically despite expeditiously that jeepers loosely yikes that
+                as or
+                eel underneath kept and slept compactly far purred sure abidingly up above fitting to strident wiped set
+                waywardly far the and pangolin horse approving paid chuckled cassowary oh above a much opposite far much
+                hypnotically more therefore wasp less that hey apart well like while superbly orca and far hence one.Far
+                much that one rank beheld bluebird after outside ignobly allegedly more when oh arrogantly vehement
+                irresistibly fussy.
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-center picture">
+        <div class="col-lg-12 text-center mt-5 mb-5">
+            <div>
+                <h1 class="text-white">Your Dream Jobs Are Waiting</h1>
+                <p class="text-white mt-4">Over 1 million interactions, 50,000 success stories Make yours now.</p>
+            </div>
+            <div class="mt-5">
+                <button type="button" class="btn btn-primary px-5 py-2 me-3 text-white"> serch job</button>
+                <button type="button" class="btn btn-warning px-5 py-2 text-white"> Aply job</button>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col-lg-12">
+            <img src="./tt.PNG" alt="">
+        </div>
+    </div>
+    <div class="row" style=" background-color: #f0eeee98;">
+        <div class="col-lg-12 mt-5 py-5">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-12">
+                    <h1>How It Works?</h1>
+                    <p class="text-muted">Job for anyone, anywhere</p>
+                </div>
+            </div>
+            <div class="row align-items justify-content-center text-center mt-5 ">
+                <div class="col-lg-3 card mt-5 py-5 px-3">
+                    <div> <img src="work-1.png" alt=""></div>
+                    <h4 class="mt-3">Free Resume Assessments</h4>
+                    <p class="text-muted">
+                        Employers on average spend 31 seconds scanning resumes to identify potential matches.</p>
+                </div>
+                <div class="col-lg-3 card ms-3 me-3 mt-5 mt-5 py-5 px-3">
+                    <div> <img src="./work-2 (1).png" alt=""></div>
+                    <h4 class="mt-3">Free Resume Assessments</h4>
+                    <p class="text-muted">
+                        Employers on average spend 31 seconds scanning resumes to identify potential matches.</p>
+                </div>
+                <div class="col-lg-3 card mt-5 mt-5 py-5 px-3">
+                    <div> <img src="./work-3.png" alt=""></div>
+                    <h4 class="mt-3">Free Resume Assessments</h4>
+                    <p class="text-muted">
+                        Employers on average spend 31 seconds scanning resumes to identify potential matches.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="row  ">
+            <div class="col-lg-12 mt-5">
+                <div class="row mt-5  align-items-center justify-content-center">
+                    <div class="col-lg-2 ms-5">
+                        <img src="./1-1 (1).webp" alt="">
+
+                    </div>
+                    <div class="col-lg-1 pe-5">
+                        <img src="./1-2 (1).webp" alt="">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./1-1 (1).webp" alt="">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./1-2 (1).webp" alt="">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="./1-5.webp" alt="">
+
+                    </div>
+                    <div class="col-lg-2 me-5">
+                        <img src="./1-6.webp" alt="">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="text-white pt-5 pb-5  ">
+        <div class="mt-5" style="width: 100%; border-top: 1px solid rgb(61, 61, 61 ,0.3) ; margin-top: 40px;">
+            <div class="container mt-5">
+                <div class="row gy-5">
+
+
+                    <div class="col-md-3">
+                        <div class="d-flex mb-4">
+                            <div class="me-3"><img src="./2-5.png" alt=""></div>
+                            <div>
+                                <h4 class="fw-bold mb-3 fs-3 text-dark">Superio</h4>
+                            </div>
+                        </div>
+
+                        <p class="mb-1 fw-bold fs-6 text-dark">Call us</p>
+                        <p class="mb-3 fs-6 text-primary">123 456 7890</p>
+
+                        <p class="mb-1 fs-6 text-muted">329 Queensberry Street, North Melbourne VIC 3051, Australia.</p>
+                        <p class="mb-1 fs-6 text-muted">support@superio.com</p>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">For Candidates</h5>
+                        <ul class="list-unstyled fs-6">
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Jobs</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Categories</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Candidate Dashboard</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Job Alerts</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">My Bookmarks</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">For Employers</h5>
+                        <ul class="list-unstyled fs-6">
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Candidates</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Employer Dashboard</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Add Job</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Job Packages</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">Join Us On</h5>
+                        <p class="text-muted fs-6">We don't send spam so don't worry.</p>
+
+                        <div class="input-group">
+                            <button class="btn btn-primary">
+                                <i class="bi bi-envelope fs-4"></i>
+                            </button>
+                            <input type="email" class="form-control fs-6" placeholder="Email">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div style="width: 100%; border-top: 1px solid rgb(61, 61, 61 ,0.3) ; margin-top: 40px;"></div>
+
+
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mt-4 pt-2 fs-6 text-muted">
+                <div>© 2023 Superio by ib-themes. All Right Reserved.</div>
+                <div>
+                    <i class="bi bi-envelope me-2"></i>
+                    <i class="bi bi-instagram me-2"></i>
+                    <i class="bi bi-facebook me-2"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

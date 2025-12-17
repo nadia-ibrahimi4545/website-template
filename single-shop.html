@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<style>
+    .btn-equal {
+        min-width: 150px;
+
+    }
+
+    .tab-title {
+        cursor: pointer;
+        color: #888;
+        padding-bottom: 6px;
+    }
+
+    .tab-title.active {
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <div class="d-flex text-white align-items-end justify-content-end">
+                <img src="./2-5.png" alt="">
+                <h5>envato <small>Market</small></h5>
+            </div>
+            <button class="btn btn-light text-dark" type="button">Search</button>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top white" style="top: 60px;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <ul class="nav nav-pills">
+                <div class="d-flex align-items-center gap-2">
+                    <img src="./2-5.png" alt="Logo" style="height:40px;">
+                    <h4 class="m-0 text-dark">Superio</h4>
+                </div>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Home</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./index.html">Home-page </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Find Jobs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./Job.html">Job-list </a></li>
+                        <li><a class="dropdown-item" href="./single-job.html">Single-job </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Employers</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./empoly-list.html">Employers-list </a></li>
+                        <li><a class="dropdown-item" href="./single-empoly.html">Single-Employers </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Candidates</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./condanit-list.html">Candidates-list </a></li>
+                        <li><a class="dropdown-item" href="./single-condanit.html">Single-Candidates </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./bolg.html">Blog-list </a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+                        <li><a class="dropdown-item" href="./single-shop.html">Single-shop </a></li>
+                        <li><a class="dropdown-item" href="./about.html">About </a></li>
+                        <li><a class="dropdown-item" href="./FQ.html">FAQs</a></li>
+                        <li><a class="dropdown-item" href="./pricing.html"> pricing</a></li>
+                        <li><a class="dropdown-item" href="./contect.html">Contect </a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="d-flex align-items-center gap-2">
+            <button type="button" class="btn btn-outline-primary btn-equal text-dark">Job Post</button>
+
+            <button class="btn btn-info btn-equal text-light">Login/Register</button>
+        </div>
+    </nav>
+    <div class="col-lg-12 ">
+        <div class="row  text-center py-5" style="margin-top: 110px; background-color: rgba(121, 187, 245, 0.507);">
+            <h3 class="mt-5">Shop Single</h3>
+            <p class="text-muted">
+                shop/Product 1</p>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row align-items-center justify-content-center py-5">
+
+
+            <div class="col-12 col-md-5 col-lg-4 mb-4 mb-md-0 border rounded">
+                <img src="./1.webp" alt="Product 1" class="img-fluid d-block mx-auto p-4">
+            </div>
+
+
+            <div class="col-12 col-md-7 col-lg-6 ms-5 mt-5">
+
+                <h5>Product 1 - KeySmart - Premium Key Holders</h5>
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus nulla faucibus
+                    viverra nisl non senectus tortor. Suspendisse pellentesque elementum proin diam.
+                </p>
+
+
+                <div class="d-flex align-items-center gap-3 mb-3">
+                    <h6 class="fw-bold fs-4">$21.99</h6>
+                    <p class="text-muted mb-0" style="text-decoration: line-through;">$99</p>
+                </div>
+
+
+                <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+                    <select class="form-select w-auto">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="check1" value="" checked>
+                        <label class="form-check-label text-muted">235 in stock</label>
+                    </div>
+                </div>
+
+
+                <div class="d-flex align-items-center gap-3 mb-4 flex-wrap">
+                    <button type="button" class="btn btn-primary d-flex align-items-center">
+                        <i class="bi bi-bag-fill me-2"></i> Add to Cart
+                    </button>
+                    <span class="fw-bold">$199</span>
+                    <i class="bi bi-bookmark fs-4 text-primary rounded p-2" style="background-color: gainsboro;"></i>
+                </div>
+
+
+                <div class="row text-muted mb-1">
+                    <div class="col-6 col-sm-3">Sku:</div>
+                    <div class="col-6 col-sm-9">RTA-0058</div>
+                </div>
+                <div class="row text-muted mb-1">
+                    <div class="col-6 col-sm-3">Category:</div>
+                    <div class="col-6 col-sm-9">Book 1</div>
+                </div>
+                <div class="row text-muted mb-1">
+                    <div class="col-6 col-sm-3">Tags:</div>
+                    <div class="col-6 col-sm-9">Business / Seo</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+
+
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-8 ">
+                <div class="container mt-5">
+
+
+                    <div class="d-flex gap-4  pb-2">
+                        <h5 class="tab-title active" data-tab="details">Description</h5>
+                        <h5 class="tab-title" data-tab="material">Review (2)</h5>
+                    </div>
+
+                    <div class="mt-4">
+
+
+                        <div id="details" class="tab-content active">
+                            <div class="mb-3">
+                                <h6>Details</h6>
+                            </div>
+
+                            <p>
+                                Do you want to become a UI/UX designer but you don't know where to start?
+                                This course will allow you to develop your user interface design skills
+                                and you can add UI designer to your CV.
+                            </p>
+
+                            <p>
+                                Hi everyone. I'm Arash and I'm a UI/UX designer. In this course,
+                                I will help you learn and master Figma app comprehensively from scratch.
+                            </p>
+
+                            <h6 class="mt-4">Material and care</h6>
+
+                            <div class="d-flex mt-3">
+                                <ul class="me-5">
+                                    <li>Main: 100% Cotton</li>
+                                    <li>One size fits all</li>
+                                    <li>Soft twill</li>
+                                </ul>
+
+                                <ul>
+                                    <li>Imported</li>
+                                    <li>Ribbed, diagonal pattern</li>
+                                    <li>Product color: Dark greenish</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div id="material" class="tab-content">
+
+                            <div class="pb-3 mb-4">
+                                <small class="text-muted">resource</small>
+                                <h6 class="mb-0">Oscar Cafeo</h6>
+                                <strong>Beautiful courses</strong>
+                                <p class="mt-2">
+                                    Far much that one rank beheld bluebird after outside ignobly allegedly more
+                                    when oh arrogantly vehement tantaneously eel valiantly petted this along.
+                                </p>
+                            </div>
+
+                            <div class="pb-3">
+                                <small class="text-muted">resource</small>
+                                <h6 class="mb-0">Alex Morgan</h6>
+                                <strong>Beautiful courses</strong>
+                                <p class="mt-3">
+                                    Far much that one rank beheld bluebird after outside ignobly allegedly more
+                                    when oh arrogantly vehement tantaneously eel valiantly petted this along.
+                                </p>
+                            </div>
+                            <div class="mt-4 border px-4 py-4">
+                                <h6 class="mb-3">Leave your thought here</h6>
+
+                                <form>
+
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" class="form-control" placeholder="Your name">
+                                        </div>
+
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" placeholder="Your email">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label">Your review</label>
+                                        <textarea class="form-control" rows="4"
+                                            placeholder="Write your review"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">
+                                        Submit Review
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const titles = document.querySelectorAll(".tab-title");
+        const contents = document.querySelectorAll(".tab-content");
+
+        titles.forEach(title => {
+            title.addEventListener("click", () => {
+                titles.forEach(t => t.classList.remove("active"));
+                contents.forEach(c => c.classList.remove("active"));
+
+                title.classList.add("active");
+                document
+                    .getElementById(title.dataset.tab)
+                    .classList.add("active");
+            });
+        });
+    </script>
+    <footer class="text-white pt-5 pb-5  ">
+        <div class="mt-5" style="width: 100%; border-top: 1px solid rgb(61, 61, 61 ,0.3) ; margin-top: 40px;">
+            <div class="container mt-5">
+                <div class="row gy-5">
+
+
+                    <div class="col-md-3">
+                        <div class="d-flex mb-4">
+                            <div class="me-3"><img src="./2-5.png" alt=""></div>
+                            <div>
+                                <h4 class="fw-bold mb-3 fs-3 text-dark">Superio</h4>
+                            </div>
+                        </div>
+
+                        <p class="mb-1 fw-bold fs-6 text-dark">Call us</p>
+                        <p class="mb-3 fs-6 text-primary">123 456 7890</p>
+
+                        <p class="mb-1 fs-6 text-muted">329 Queensberry Street, North Melbourne VIC 3051, Australia.</p>
+                        <p class="mb-1 fs-6 text-muted">support@superio.com</p>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">For Candidates</h5>
+                        <ul class="list-unstyled fs-6">
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Jobs</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Categories</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Candidate Dashboard</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Job Alerts</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">My Bookmarks</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">For Employers</h5>
+                        <ul class="list-unstyled fs-6">
+                            <li><a href="#" class="text-muted text-decoration-none">Browse Candidates</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Employer Dashboard</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Add Job</a></li>
+                            <li><a href="#" class="text-muted text-decoration-none">Job Packages</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5 class="fw-bold mb-3 fs-5 text-dark">Join Us On</h5>
+                        <p class="text-muted fs-6">We don't send spam so don't worry.</p>
+
+                        <div class="input-group">
+                            <button class="btn btn-primary">
+                                <i class="bi bi-envelope fs-4"></i>
+                            </button>
+                            <input type="email" class="form-control fs-6" placeholder="Email">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div style="width: 100%; border-top: 1px solid rgb(61, 61, 61 ,0.3) ; margin-top: 40px;"></div>
+
+
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mt-4 pt-2 fs-6 text-muted">
+                <div>© 2023 Superio by ib-themes. All Right Reserved.</div>
+                <div>
+                    <i class="bi bi-envelope me-2"></i>
+                    <i class="bi bi-instagram me-2"></i>
+                    <i class="bi bi-facebook me-2"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
